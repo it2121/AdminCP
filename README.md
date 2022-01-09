@@ -9,8 +9,7 @@
   <a href="https://github.com/it2121/AdminCP/">
   </a>
 
-  <h3 align="center">Sticky Notes</h3>
-employee supervision system
+  <h3 align="center">Employee Supervision System</h3>
   
 ## Built With C# asp.net
 
