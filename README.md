@@ -40,4 +40,4 @@
 
 Copyright 2020 Mohammed Talib.
 
-Licensed under the [MIT License](https://github.com/it2121/AdminCP/edit/master/LICENSE.txt)
+Licensed under the [MIT License](https://github.com/it2121/AdminCP/blob/main/LICENSE.txt)
