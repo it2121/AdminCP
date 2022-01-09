@@ -19,8 +19,6 @@
 </br>
  <img src="1.png"></img>
  </br>
- <img src="s2.gif"></img>
-</br>
  <img src="2.png"></img>
  </br>
  <img src="3.png"></img>
