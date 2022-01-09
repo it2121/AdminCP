@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="foody.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+       <title></title>
+     
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+    <script src="bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/StyleSheet1.css" rel="stylesheet" />
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+
+      <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+   <form id="form1" runat="server">
+    
+
+        <div class="wrapper d-flex align-items-stretch">                     
+      <nav id="sidebar" style="background-color:#2b3242">
+        <div class="custom-menu" >
+                    
+          <button type="button" id="sidebarCollapse" class="btn btn-primary " >
+            <i class="fa fa-bars"></i>
+            <span class="sr-only ">Toggle Menu</span>
+          </button>
+        </div >
+        <h1><a  class="logo" style="background-color:#1f2937" >Control Panel</a></h1>
+                     
+
+        <ul class="list-unstyled components mb-5 ">
+            
+               <li class="active">
+             <asp:LinkButton class="nav-link" ID="reportsViewB" runat="server" OnClick="reportsViewB_Click" ><span class="fa fa-book mr-3 "></span>View Records</asp:LinkButton>
+
+
+         </li>
+          
+          <li class="active">
+                       <asp:LinkButton class="nav-link" ID="projectsB" runat="server" OnClick="projectsB_Click" ><span class="fa fa-sticky-note mr-3 "></span>Projects</asp:LinkButton>
+
+          </li>
+          <li class="active">
+         <asp:LinkButton class="nav-link" ID="locationsB" runat="server" OnClick="locationsB_Click" ><span class="fa fa-sticky-note mr-3 "></span>Locations</asp:LinkButton>
+
+          </li>
+            <li class="active">
+             <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" ><span class="fa fa-book mr-3 "></span>Reports</asp:LinkButton>
+
+
+         </li>
+      
+             <li class="active">
+             <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server" OnClick="LinkButton7_Click"><span class="fa fa-sticky-note mr-3"></span>Employees</asp:LinkButton>
+
+
+         </li>
+
+
+          
+            
+
+
+               <li class="active">
+             <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click"><span class="fa fa-book mr-3 "></span>Login Info Manager</asp:LinkButton>
+
+
+         </li> 
+
+
+               <li class="active">
+             <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click1"><span class="fa fa-book mr-3 "></span>Admin Login</asp:LinkButton>
+
+
+         </li>
+            
+               <li class="active">
+             <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" ><span class="fa fa-book mr-3 "></span>Logout</asp:LinkButton>
+
+
+         </li>   
+         
+         
+        </ul>
+
+      </nav>
+   
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+    
+
+
+      </div>
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+                     <sessionState mode="InProc" cookieless="true" timeout="1"></sessionState>
+
+
+
+
+        <!-- Page Content  -->
+ 
+    
+
+ 
+
+        <!-- Page Content  -->
+ 
+
+    </form>
+</body>
+</html>
